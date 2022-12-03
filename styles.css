@@ -1,0 +1,237 @@
+ /* boton */
+ button{
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
+    border-radius: 15px;
+    border: #131415 1px;
+    cursor: pointer;
+  }
+   /* body */
+  body{
+    background: #131415;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+  }
+   /* nav */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    z-index: 2;
+  }
+   /* nav icono */
+  .icono{
+   width: 76px;
+   height: 79px;
+  }
+   /* nav menu */
+  .menu{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-right: 15px;
+    z-index: 2;
+  }
+  .lista{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  ul{
+    list-style: none;
+  }
+   /* hero */
+  .hero{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 100px;
+    max-width: 2000px;
+    z-index: 1;
+  }
+   /* eslogan hero */
+  .eslogan{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 25px; 
+  }
+  .eslogan h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+  }
+  .eslogan span{
+    font-size: 40px;
+  }
+  .eslogan p{
+    font-size: 15px;
+    margin: 0px 0px;
+    color: #FFFFFF;
+    opacity: 100%;
+  }
+  .eslogan button{
+    width: 160px;
+    height: 50px;
+  }
+   /* imagen hero */
+  .imag{
+    height: 265px;
+    width: 265px; 
+    display: flex;
+  }
+  
+  .img2{
+    width: 15 0px;
+    height: 150px;
+    margin-left: -75px;
+    margin-top: -100px;
+  }
+  .img1{
+  width: 200px;
+  height: 200px;
+  margin-left: -200px;
+  }
+   /* recomendaciones */
+  .recomendamos{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 30px;
+  }
+  .recomendamos h4{
+    padding: 0px 70px;
+  }
+  .recomendados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0px 115px;
+  }
+  .cajaReco{
+    width: 320px;
+    height: 103px;
+    background: #252525;
+    display: flex;
+    gap: 15px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+   /* recomendaciones palabras del centro */
+  .cajaRecoPrecio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0px;
+    gap: 1px;
+  }
+  .cajaRecoPrecio span{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 131.02%;
+  }
+   p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #ffeaea;
+  opacity: 0.3;
+  }
+  .letraGradiente{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 131.02%;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  }
+  .cajaReco button{
+    width: 85px;
+    height: 29px;
+  }
+  .letra{
+    font-size: 15px;
+  }
+   /* categorias */
+   .cajaCategorias{
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+    justify-content:space-around ;
+    padding: 0px 60px;
+   }
+   .cajitaCategoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 171px;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    gap: 5px;
+    font-family: 'Montserrat', sans-serif;
+   }
+   .cajitaCategoria button{
+    width: 24px;
+    height: 4px ;
+   }
+   .cajitaCategoria img{
+    width: 85px;
+    height: 85px;
+   }
+    /* populares */
+    .cajaPopulares{
+      display: flex;
+      flex-direction: row; 
+      gap: 5px;
+      justify-content:space-around ;
+      padding: 10px 60px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+     }
+     .cajitaPopulares{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 282px;
+      height: 213px;
+      background: #252525;
+      box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+      border-radius: 15px;
+      gap: 5px;
+      font-family: 'Montserrat', sans-serif;
+     }
+     .cajitaPopulares p{
+      margin-top: 1px;
+      margin-left: -135px;
+     }
+     .cajitaPopulares button{
+      width: 85px;
+      height: 29px;
+     }
+     .pap{
+      margin-top: 1px;
+      margin-left: -165px;
+     }
+     .pop{
+      display: flex;
+      justify-content: space-around;
+      gap: 110px;
+     }
