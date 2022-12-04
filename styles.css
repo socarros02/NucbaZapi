@@ -208,8 +208,6 @@
      .cajitaPopulares{
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       width: 282px;
       height: 213px;
       background: #252525;
@@ -218,9 +216,12 @@
       gap: 5px;
       font-family: 'Montserrat', sans-serif;
      }
+     .cajitaPopulares img{
+      margin: 10px 20px;
+     }
      .cajitaPopulares p{
       margin-top: 1px;
-      margin-left: -135px;
+      padding-left: 10px;
      }
      .cajitaPopulares button{
       width: 85px;
@@ -228,7 +229,7 @@
      }
      .pap{
       margin-top: 1px;
-      margin-left: -165px;
+      padding-left: 10px;
      }
      .pop{
       display: flex;
