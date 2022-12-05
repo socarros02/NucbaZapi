@@ -1,3 +1,9 @@
+@media (max-width: 1780px){
+  .cajaPopulares{
+    margin: 0px 20px;
+    padding: 30px;
+  }
+}
 @media (max-width: 1620px){
   main{
     padding: 0px 30px;
@@ -16,7 +22,9 @@
   .eslogan{
     width: 80%;
   }
-
+  .cajaPopulares{
+    margin: 0px 0px;
+  }
 }
 @media (max-width: 1192px){
 }
