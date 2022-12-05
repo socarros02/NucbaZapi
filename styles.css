@@ -85,14 +85,7 @@
    /* imagen hero */
   
    /* recomendaciones */
-  .recomendamos{
-    display: flex;
-    flex-direction: column;
-    margin: 40px 30px;
-  }
-  .recomendamos h4{
-    padding: 0px 70px;
-  }
+ 
   .recomendados{
     display: flex;
     flex-direction: row;

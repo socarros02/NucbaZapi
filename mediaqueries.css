@@ -12,6 +12,7 @@
   .hero {
     flex-direction: column;
     gap: 50px;
+    
   }
   .eslogan{
     width: 80%;
@@ -19,12 +20,10 @@
   main{
     padding: 0px 30px;
   }
-}
+
 .recomendados {
   flex-direction: column;
   align-items: center;
-
-
 }
 .cajaCategorias {
   flex-wrap: wrap;
@@ -39,6 +38,7 @@
 }
 .footer-bot {
   flex-direction: column;
+}
 }
 @media (max-width: 900px){
   main{
