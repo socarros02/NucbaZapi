@@ -224,3 +224,27 @@
       justify-content: space-around;
       gap: 110px;
      }
+
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 50px;
+      margin-top: 150px;
+      
+    }
+    .footer-top {
+      display: flex;
+      gap: 50px;
+      font-weight: 400;
+      font-size: 17px;
+    }
+    .footer-bot {
+      font-weight: 900;
+      font-size: 17px;
+    }
+    #spanito {
+      font-weight: 400;
+      font-size: 17px;
+    }
