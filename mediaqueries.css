@@ -1,7 +1,11 @@
 @media (max-width: 1780px){
+
   .cajaPopulares{
     margin: 0px 20px;
     padding: 30px;
+  }
+  main{
+    display: block;
   }
 }
 @media (max-width: 1620px){

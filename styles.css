@@ -12,6 +12,12 @@
     font-family: 'Montserrat', sans-serif;
     color:#FFFFFF;
   }
+  main{
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
    /* nav */
   nav{
     display: flex;
