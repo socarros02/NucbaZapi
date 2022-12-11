@@ -17,8 +17,8 @@
     max-width: 1800px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
+  
    /* carrito */  
    .cart{
     position:absolute;
@@ -166,14 +166,14 @@
     padding: 15px 0px;
     gap: 1px;
   }
-  .cajaRecoPrecio,.carrito span{
+  .cajaRecoPrecio span{
     font-family: 'Montserrat';
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
   line-height: 131.02%;
   }
-   p{
+  p{
   font-family: 'Montserrat';
   font-style: normal;
   font-size: 10px;
@@ -190,12 +190,12 @@
     font-size: 19px;
     line-height: 131.02%;
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
-  .cajaReco,.compraCart button{
+  .cajaReco button{
     width: 85px;
     height: 29px;
   }
