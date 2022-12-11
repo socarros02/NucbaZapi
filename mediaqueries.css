@@ -30,10 +30,11 @@
     margin: 0px 0px;
   }
 }
-@media (max-width: 1192px){
-}
 
 @media (max-width: 1025px) {
+  h4{
+    padding: 0px 40px;
+  }
   .hero {
     flex-direction: column;
     gap: 50px;

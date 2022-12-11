@@ -12,13 +12,9 @@
     font-family: 'Montserrat', sans-serif;
     color:#FFFFFF;
   }
-   /* main */
-  main{
-    max-width: 1800px;
-    display: flex;
-    flex-direction: column;
-
-  }
+   h4{
+    padding: 0px 100px;
+   }
   
    /* carrito */  
    .cart{
