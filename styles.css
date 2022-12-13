@@ -6,13 +6,16 @@
     border: #131415 1px;
     cursor: pointer;
   }
-   /* body */
+  
+  
+  /* body */
   body{
     background: #131415;
     font-family: 'Montserrat', sans-serif;
     color:#FFFFFF;
   }
-   h4{
+  
+  h4{
     padding: 0px 100px;
    }
   
@@ -37,6 +40,7 @@
    .cart::-webkit-scrollbar{
     display: none;
    }
+   /*funcionamiento carro */ 
   #menu-toggle,
    .menu-label
   {
@@ -51,6 +55,7 @@
    {
     display: flex;
    }
+   /*diseño carro */ 
    .carrito{
     display: flex;
     flex-direction: row;
@@ -64,8 +69,17 @@
     display: flex;
     justify-content: space-between;
   }
+
+
+   /* main */
+  main{
+    padding: 0px 100px;
+  }
+
+
    /* nav */
-  nav{
+  
+   nav{
     display: flex;
     justify-content: space-between;
     padding: 0px 25px;
@@ -76,10 +90,7 @@
    width: 76px;
    height: 79px;
   }
-   /* main */
-  main{
-    padding: 0px 100px;
-  }
+  
    /* nav menu */
   .menu{
     display: flex;
@@ -100,7 +111,9 @@
   ul{
     list-style: none;
   }
-   /* hero */
+   
+  
+  /* hero */
   .hero{
     display: flex;
     justify-content:space-between;
@@ -134,8 +147,19 @@
     width: 160px;
     height: 50px;
   }
-   /* imagen hero */
-  
+   /*parrafo estilo*/ 
+  p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #ffeaea;
+  opacity: 0.3;
+  }
+
+
    /* recomendaciones */
  
   .recomendados{
@@ -170,16 +194,6 @@
   font-size: 15px;
   line-height: 131.02%;
   }
-  p{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-size: 10px;
-  line-height: 17px;
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  color: #ffeaea;
-  opacity: 0.3;
-  }
   .letraGradiente{
     font-family: 'Montserrat';
     font-style: normal;
@@ -199,6 +213,8 @@
   .letra{
     font-size: 15px;
   }
+
+
    /* categorias */
    .cajaCategorias{
     display: flex;
@@ -228,7 +244,9 @@
     width: 85px;
     height: 85px;
    }
-    /* populares */
+    
+   
+   /* populares */
     .cajaPopulares{
       display: flex;
       flex-direction: row; 
